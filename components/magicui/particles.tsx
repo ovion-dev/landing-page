@@ -89,6 +89,7 @@ const Particles: React.FC<ParticlesProps> = ({
     initCanvas();
   }, [refresh]);
 
+  
   const initCanvas = () => {
     resizeCanvas();
     drawParticles();
@@ -259,6 +260,27 @@ const Particles: React.FC<ParticlesProps> = ({
     });
     window.requestAnimationFrame(animate);
   };
+
+  useEffect(() => {
+    if (canvasRef.current) {
+      animate();
+      initCanvas();
+    }
+  }, [animate, initCanvas]);
+
+  useEffect(() => {
+    window.addEventListener("mousemove", onMouseMove);
+    return () => {
+      window.removeEventListener("mousemove", onMouseMove);
+    };
+  }, [onMouseMove]);
+
+  useEffect(() => {
+    initCanvas();
+    return () => {
+      // cleanup if needed
+    };
+  }, [initCanvas]);
 
   return (
     <div className={className} ref={canvasContainerRef} aria-hidden="true">
