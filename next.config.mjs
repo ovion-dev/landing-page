@@ -4,7 +4,7 @@ const nextConfig = {
   basePath: '/landing-page',
   images: {
     unoptimized: true,
-    domains: ["https://ovion-dev.github.io/landing-page/"],
+    domains: ["https://ovion-dev.github.io/"],
   },
 };
 
