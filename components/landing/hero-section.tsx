@@ -29,7 +29,7 @@ export default function HeroSection() {
       <p className="mb-12 text-lg tracking-tight text-gray-400 md:text-xl text-balance translate-y-[-1rem] animate-fade-in opacity-0 [--animation-delay:400ms]">
         Des landing pages et des applications web
         <br className="hidden md:block" /> créées avec des composants et des
-        templates animés.
+        outils modernes.
       </p>
       <Link href="https://cal.com/ovion" target="_blank">
         <Button className="translate-y-[-1rem] animate-fade-in gap-1 rounded-lg text-white dark:text-black opacity-0 ease-in-out [--animation-delay:600ms]" >
