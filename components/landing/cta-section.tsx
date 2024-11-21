@@ -173,7 +173,7 @@ export default function CallToActionSection() {
             </Marquee>
             <div className="absolute z-10">
               <div className="mx-auto size-24 rounded-[2rem] border bg-white/10 p-3 shadow-2xl backdrop-blur-md dark:bg-black/10 lg:size-32">
-                <Palette className="mx-auto size-16 text-black dark:text-white lg:size-24" />
+                <Code2 className="mx-auto size-16 text-black dark:text-white lg:size-24" />
               </div>
               <div className="z-10 mt-4 flex flex-col items-center text-center text-primary">
                 <h1 className="text-3xl font-bold lg:text-4xl">
@@ -183,7 +183,8 @@ export default function CallToActionSection() {
                   Prenez rendez-vous avec un expert pour exposer votre projet.
                 </p>
                 <Link
-                  href="#"
+                  href="https://cal.com/ovion"
+                  target="_blank"
                   className={cn(
                     buttonVariants({
                       size: "lg",

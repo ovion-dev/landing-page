@@ -10,14 +10,14 @@ import { BorderBeam } from "../magicui/border-beam";
 
 const features = [
   {
-    title: "Algorithmes AI avancés",
+    title: "Création de sites web performants",
     description:
-      "Notre plateforme utilise des algorithmes AI avancés pour fournir des solutions précises et efficaces pour vos besoins commerciaux.",
+      "Nous concevons des sites web adaptés à vos besoins : sites vitrines, e-commerce, intranets ou extranets. Chaque projet est optimisé pour offrir une navigation fluide, une expérience utilisateur agréable et une visibilité accrue sur les moteurs de recherche.",
     className: "hover:bg-red-500/10 transition-all duration-500 ease-out",
     content: (
       <>
         <Safari
-          src={`/landing-page/dashboard.png`}
+          src={`/landing-page/hero-dark1.png`}
           url="https://acme.ai"
           className="-mb-32 mt-4 max-h-64 w-full px-4 select-none drop-shadow-[0_0_28px_rgba(0,0,0,.1)] group-hover:translate-y-[-10px] transition-all duration-300"
         />
@@ -25,23 +25,23 @@ const features = [
     ),
   },
   {
-    title: "Gestion sécurisée des données",
+    title: "Développement d’applications mobiles innovantes",
     description:
-      "Nous privilégions la sécurité de vos données avec des protocoles de sécurité avancés et des protocoles stricts de confidentialité, garantissant que vos informations restent confidentielles.",
+      "Que ce soit pour des applications natives, hybrides ou PWA (Progressive Web Apps), nous créons des solutions intuitives et performantes qui facilitent la connexion avec vos clients et boostent votre activité.",
     className:
       "order-3 xl:order-none hover:bg-blue-500/10 transition-all duration-500 ease-out",
     content: (
       <Safari
-        src={`/landing-page/dashboard.png`}
+        src={`/landing-page/seekrypto.png`}
         url="https://acme.ai"
         className="-mb-32 mt-4 max-h-64 w-full px-4 select-none drop-shadow-[0_0_28px_rgba(0,0,0,.1)] group-hover:translate-y-[-10px] transition-all duration-300"
       />
     ),
   },
   {
-    title: "Intégration fluide",
+    title: "Optimisation SEO et UX/UI",
     description:
-      "Facilement intégrer nos solutions AI dans vos workflows et systèmes existants pour un fonctionnement fluide et efficace.",
+      "Nous améliorons votre positionnement en ligne grâce à des stratégies SEO robustes et des interfaces utilisateur modernes qui augmentent vos conversions. Le tout est conçu pour répondre aux attentes des utilisateurs et des moteurs de recherche.",
     className:
       "md:row-span-2 hover:bg-orange-500/10 transition-all duration-500 ease-out",
     content: (
@@ -57,7 +57,7 @@ const features = [
           width={800}
         />
         <Safari
-          src={`/landing-page/dashboard.png`}
+          src={`/landing-page/seekrypto.png`}
           url="https://acme.ai"
           className="-mb-48 ml-12 mt-16 h-full px-4 select-none drop-shadow-[0_0_28px_rgba(0,0,0,.1)] group-hover:translate-x-[-10px] transition-all duration-300"
         />
@@ -65,16 +65,16 @@ const features = [
     ),
   },
   {
-    title: "Solutions personnalisées",
+    title: "Support technique et maintenance continue",
     description:
-      "Personnalisez nos services AI à vos besoins spécifiques avec des options de personnalisation flexibles, vous permettant d'optimiser au maximum notre plateforme.",
+      "Nos solutions ne s'arrêtent pas à la livraison. Nous offrons un support technique, des mises à jour régulières, et une maintenance adaptée pour assurer la pérennité et la performance de vos outils digitaux.",
     className:
       "flex-row order-4 md:col-span-2 md:flex-row xl:order-none hover:bg-green-500/10 transition-all duration-500 ease-out",
     content: (
       <>
         <Ripple className="absolute -bottom-full" />
         <Safari
-          src={`/landing-page/dashboard.png`}
+          src={`/landing-page/github.png`}
           url="https://acme.ai"
           className="-mb-32 mt-4 max-h-64 w-full px-4 select-none drop-shadow-[0_0_28px_rgba(0,0,0,.1)] group-hover:translate-y-[-10px] transition-all duration-300"
         />

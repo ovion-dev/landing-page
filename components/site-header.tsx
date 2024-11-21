@@ -109,7 +109,8 @@ export function SiteHeader() {
                 buttonVariants({ variant: "secondary" }),
                 "mr-6 text-sm"
               )}
-              href="/contact"
+              href="https://cal.com/ovion"
+              target="_blank"
             >
               Contactez-nous
             </Link>

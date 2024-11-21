@@ -1,26 +1,26 @@
 import BlurFade from "@/components/magicui/blur-fade";
 import Section from "@/components/section";
 import { Card, CardContent } from "@/components/ui/card";
-import { Brain, Shield, Zap } from "lucide-react";
+import { Brain, Code, Globe, Rocket, Shield, Zap } from "lucide-react";
 
 const problems = [
   {
-    title: "Surplus de données",
+    title: "Manque de visibilité en ligne",
     description:
-      "Les entreprises ont du mal à faire de la valeur des données complexes, manquant de valeur qui pourrait conduire à la croissance et à l'innovation.",
-    icon: Brain,
+      "Les PME et commerces locaux perdent des clients faute de présence digitale efficace. Nous créons des sites web et applications sur mesure pour renforcer leur visibilité et leur crédibilité.",
+    icon: Globe,
   },
   {
-    title: "Décision lente",
+    title: "Outils numériques compliqués",
     description:
-      "Les méthodes de traitement de données traditionnelles sont trop lentes, causant aux entreprises de se décaler derrière les changements du marché et de manquer des opportunités cruciales.",
-    icon: Zap,
+      "Les solutions standards ne conviennent pas toujours aux PME. Nous développons des outils simples et personnalisés pour optimiser leurs opérations, avec un support technique inclus.",
+    icon: Code,
   },
   {
-    title: "Inquiétudes de sécurité",
+    title: "Retard technologique",
     description:
-      "Avec l'augmentation des cyber-menaces, les entreprises ont des inquiétudes concernant la sécurité de leurs informations sensibles lors de l'adoption de nouvelles technologies.",
-    icon: Shield,
+      "Ne pas évoluer avec les tendances digitales nuit à la compétitivité. Nous offrons des services modernes (SEO, UX/UI, optimisation mobile) pour garantir un avantage concurrentiel durable.",
+    icon: Rocket,
   },
 ];
 
