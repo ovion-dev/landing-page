@@ -75,8 +75,8 @@ export function SiteFooter() {
           <div className="mb-12 flex-col flex gap-4">
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/path-to-image.png"
-                alt="Description de l'image"
+                src="/landing-page/logo.png"
+                alt="Ovion Studio Logo"
                 width={100}
                 height={100}
                 className="your-classes"
